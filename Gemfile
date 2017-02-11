@@ -1,6 +1,12 @@
 source 'https://rubygems.org'
 
-
+gem 'pry-rails', :group => :development
+gem 'faker'
+gem 'awesome_print'
+gem 'font-awesome-rails'
+gem 'better_errors'
+gem 'rails_db'
+gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
