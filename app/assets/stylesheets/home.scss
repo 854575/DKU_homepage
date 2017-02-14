@@ -6,7 +6,8 @@
      }
 		body {
 			background: #fff;
-			font-family: 'Jeju Gothic', sans-serif;
+			font-family: 'koverwatch', sans-serif;
+			// font-family: 'Jeju Gothic', sans-serif;
 		}
 		a {
 		 	text-decoration: none;
@@ -48,7 +49,7 @@
 		header {
 			width: 100%;
 			height: 300px;
-			background: image_tag('assets/images/cover.PNG') center no-repeat;
+			background: url('/cover.PNG') center no-repeat;
 			background-size: cover;
 			margin: 0;
 		}
