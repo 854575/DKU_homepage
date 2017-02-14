@@ -1,24 +1,24 @@
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 
-  	* {
+  	*{
     	margin:0;
-      padding:0;
+	   	padding:0;
      }
 		body {
 			background: #fff;
-		font-family: 'Jeju Gothic', sans-serif;
+			font-family: 'Jeju Gothic', sans-serif;
 		}
 		a {
-			text-decoration: none;
-		}
+		 	text-decoration: none;
+		 }
 		nav a:link, a:visited {
 			color: #fff;
 		}
 		nav a:active {
 			color: yellow;
 		}
-	  h1 {
+	  	h1 {
 			font-size: 1.8em;
 		}
 		h2 {
@@ -32,6 +32,15 @@
 			font-size: 1em;
 			line-height: 2;
 		}
+		.btn
+		{
+			display : inline-block;
+			padding :5px 30px;
+		    border-radius:1000px;
+		    background-image: linear-gradient(to bottom, #ff9980, #ff4b1f);
+			background-size: 100% 100%;
+		}
+		
 		/* 모바일 - 767px 이하 */
 		#container {
 			width: 100%;
@@ -77,14 +86,14 @@
 		.page-title h1 {
 				margin-bottom: 30px;
 			}		
-    .content {
-    	margin: 80px auto 10px;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      width: 90%;
-      padding: 20px;
-    }		
+   		.content {
+	    	margin: 80px auto 10px;
+	    	-moz-box-sizing: border-box;
+	     	-webkit-box-sizing: border-box;
+	      	box-sizing: border-box;
+	      	width: 90%;
+	      	padding: 20px;
+    	}		
 		.content ol {
 			margin-top: 20px;
 		}
@@ -124,9 +133,10 @@
         margin: 0;
         border: 1px dotted #ccc;
       }
-      #choice {
-				clear: left;
-			}
+      #choice
+    	{
+			clear: left;
+		}
     }
 
     /* PC - 992px 이상 */
