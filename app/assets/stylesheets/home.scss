@@ -40,7 +40,6 @@ li
 	line-height: 2;
 }
 
-
 /* 모바일 - 767px 이하 */
 #container
 {
@@ -132,14 +131,13 @@ footer p
 	color: white;
 	text-align: center;
 }
-.btn 
-{
-	display : inline-block;
-	padding :5px 30px;
-	border-radius:1000px;
-	background-image: linear-gradient(to bottom, #ff9980, #ff4b1f);
-	background-size: 100% 100%;
-	color: #fff;
+.btn {
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom, #ff9980, #ff4b1f);
+    background-size: 100% 100%;
+    color:#fff;
 }
 /* 태블릿 - 768px 이상 */
 @media screen and (min-width:760px)
@@ -163,15 +161,7 @@ footer p
 	{
 		clear: left;
 	}
-	.btn 
-{
-	display : inline-block;
-	padding :5px 30px;
-	border-radius:1000px;
-	background-image: linear-gradient(to bottom, #ff9980, #ff4b1f);
-	background-size: 100% 100%;
-	color: #fff;
-}
+
 }
 
 	
@@ -244,13 +234,5 @@ footer p
 	{
 		clear: both;
 	}
-	.btn 
-{
-	display : inline-block;
-	padding :5px 30px;
-	border-radius:1000px;
-	background-image: linear-gradient(to bottom, #ff9980, #ff4b1f);
-	background-size: 100% 100%;
-	color: #fff;
-}
+
 }
