@@ -131,7 +131,8 @@ footer p
 	color: white;
 	text-align: center;
 }
-.btn {
+.btn
+{
     display: inline-block;
     padding: 5px 30px;
     border-radius: 1000px;
@@ -139,6 +140,7 @@ footer p
     background-size: 100% 100%;
     color:#fff;
 }
+
 /* 태블릿 - 768px 이상 */
 @media screen and (min-width:760px)
 {
@@ -164,8 +166,7 @@ footer p
 
 }
 
-	
-	/* PC - 992px 이상 */
+/* PC - 992px 이상 */
 @media screen and (min-width:992px)
 {
 	#container
