@@ -11,12 +11,13 @@ body
 }
 a
 {
-	color: #fff;
+	// a link자체에 color를 적용
 	text-decoration: none;
 }
 nav a:link, a:visited
 {
-	
+	color: white;
+	// 방문전, 방문후에 color값을 먹이지 않고.
 }
 nav a:active
 {
